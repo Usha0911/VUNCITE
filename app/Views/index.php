@@ -12,7 +12,7 @@
 <body class="bg-brand-bg text-on-surface font-body-md overflow-x-hidden">
 
     <!-- 1. TopNavBar -->
- <?= $this->include('layout/header'); ?>
+    <?= $this->include('layout/header'); ?>
 
     <!-- 2. Hero Section -->
     <section class="pt-10 pb-10 px-8 lg:px-xl max-w-container-max mx-auto relative overflow-hidden">
@@ -221,6 +221,10 @@
             </div>
         </div>
     </section>
+
+
+
+
     <!-- 4. Services Section -->
     <section class="py-xl px-8 lg:px-xl max-w-container-max mx-auto">
         <div class="text-center mb-16 reveal">
@@ -229,64 +233,109 @@
                 experiences designed to transform students into technology creators.</p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+       
             <!-- Card 1 -->
-            <div class="glass p-8 rounded-xxl hover-lift reveal">
-                <div class="w-14 h-14 bg-brand-navy/5 rounded-xl flex items-center justify-center text-brand-navy mb-6">
-                    <span class="material-symbols-outlined text-3xl"
+            <div
+                class="group relative overflow-hidden bg-white border border-[#D4AF37]/20 rounded-3xl p-8 transition-all duration-500 ease-out hover:bg-[#0B1F4D] hover:-translate-y-3 hover:shadow-[0_25px_60px_rgba(11,31,77,0.45)] hover:border-[#D4AF37]">
+                <div
+                    class="w-16 h-16 rounded-2xl bg-[#0B1F4D]/10 flex items-center justify-center mb-6 transition-all duration-500 group-hover:bg-[#D4AF37]/20 group-hover:rotate-6">
+                    <span
+                        class="material-symbols-outlined text-3xl text-[#0B1F4D] transition-all duration-500 group-hover:text-[#D4AF37]"
                         data-icon="settings_suggest">settings_suggest</span>
                 </div>
-                <h3 class="font-headline-md text-headline-md text-brand-navy mb-4">Technology Workshops</h3>
-                <p class="text-body-md text-on-surface-variant mb-6">Deep dives into emerging tech trends and
+                <h3
+                    class="font-headline-md text-headline-md text-[#0B1F4D] mb-4 transition-colors duration-500 group-hover:text-[#D4AF37]">
+                    Technology Workshops</h3>
+                <p
+                    class="text-body-md text-gray-600 mb-6 leading-7 transition-colors duration-500 group-hover:text-white">
+                    Deep dives into emerging tech trends and
                     foundational digital literacy skills.</p>
-                <a class="text-brand-navy font-label-md flex items-center gap-2 group" href="#">Learn More <span
-                        class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span></a>
+                <a class="inline-flex items-center gap-2 font-semibold text-[#0B1F4D] transition-all duration-500 group-hover:text-[#D4AF37]"
+                    href="#">Learn More <span
+                        class="material-symbols-outlined text-sm transition-all duration-500 group-hover:translate-x-2">arrow_forward</span></a>
             </div>
+
+
             <!-- Card 2 -->
-            <div class="glass p-8 rounded-xxl hover-lift reveal">
-                <div class="w-14 h-14 bg-brand-navy/5 rounded-xl flex items-center justify-center text-brand-navy mb-6">
+           <div
+                class="group relative overflow-hidden bg-white border border-[#D4AF37]/20 rounded-3xl p-8 transition-all duration-500 ease-out hover:bg-[#0B1F4D] hover:-translate-y-3 hover:shadow-[0_25px_60px_rgba(11,31,77,0.45)] hover:border-[#D4AF37]">
+               
+                <div
+                    class="w-16 h-16 rounded-2xl bg-[#0B1F4D]/10 flex items-center justify-center mb-6 transition-all duration-500 group-hover:bg-[#D4AF37]/20 group-hover:rotate-6">
                     <span class="material-symbols-outlined text-3xl" data-icon="auto_stories">auto_stories</span>
                 </div>
-                <h3 class="font-headline-md text-headline-md text-brand-navy mb-4">Story-Based Learning</h3>
-                <p class="text-body-md text-on-surface-variant mb-6">Complex technical concepts simplified through
+                <h3
+                    class="font-headline-md text-headline-md text-[#0B1F4D] mb-4 transition-colors duration-500 group-hover:text-[#D4AF37]">
+                    Story-Based Learning</h3>
+                <p
+                    class="text-body-md text-gray-600 mb-6 leading-7 transition-colors duration-500 group-hover:text-white">
+                    Complex technical concepts simplified through
                     narrative-driven educational paths.</p>
-                <a class="text-brand-navy font-label-md flex items-center gap-2 group" href="#">Learn More <span
-                        class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span></a>
+                <a class="inline-flex items-center gap-2 font-semibold text-[#0B1F4D] transition-all duration-500 group-hover:text-[#D4AF37]"
+                    href="#">Learn More <span
+                        class="material-symbols-outlined text-sm transition-all duration-500 group-hover:translate-x-2">arrow_forward</span></a>
             </div>
             <!-- Card 3 -->
-            <div class="glass p-8 rounded-xxl hover-lift reveal">
-                <div class="w-14 h-14 bg-brand-navy/5 rounded-xl flex items-center justify-center text-brand-navy mb-6">
+           <div
+                class="group relative overflow-hidden bg-white border border-[#D4AF37]/20 rounded-3xl p-8 transition-all duration-500 ease-out hover:bg-[#0B1F4D] hover:-translate-y-3 hover:shadow-[0_25px_60px_rgba(11,31,77,0.45)] hover:border-[#D4AF37]">
+               
+                <div
+                    class="w-16 h-16 rounded-2xl bg-[#0B1F4D]/10 flex items-center justify-center mb-6 transition-all duration-500 group-hover:bg-[#D4AF37]/20 group-hover:rotate-6">
                     <span class="material-symbols-outlined text-3xl" data-icon="build">build</span>
                 </div>
-                <h3 class="font-headline-md text-headline-md text-brand-navy mb-4">Hands-on Learning</h3>
-                <p class="text-body-md text-on-surface-variant mb-6">Practical lab sessions where students build
+                <h3
+                    class="font-headline-md text-headline-md text-[#0B1F4D] mb-4 transition-colors duration-500 group-hover:text-[#D4AF37]">
+                    Hands-on Learning</h3>
+                <p
+                    class="text-body-md text-gray-600 mb-6 leading-7 transition-colors duration-500 group-hover:text-white">
+                    Practical lab sessions where students build
                     tangible projects and prototypes.</p>
-                <a class="text-brand-navy font-label-md flex items-center gap-2 group" href="#">Learn More <span
-                        class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span></a>
+                <a class="inline-flex items-center gap-2 font-semibold text-[#0B1F4D] transition-all duration-500 group-hover:text-[#D4AF37]"
+                    href="#">Learn More <span
+                        class="material-symbols-outlined text-sm transition-all duration-500 group-hover:translate-x-2">arrow_forward</span></a>
             </div>
             <!-- Card 4 -->
-            <div class="glass p-8 rounded-xxl hover-lift reveal">
-                <div class="w-14 h-14 bg-brand-navy/5 rounded-xl flex items-center justify-center text-brand-navy mb-6">
+            <div
+                class="group relative overflow-hidden bg-white border border-[#D4AF37]/20 rounded-3xl p-8 transition-all duration-500 ease-out hover:bg-[#0B1F4D] hover:-translate-y-3 hover:shadow-[0_25px_60px_rgba(11,31,77,0.45)] hover:border-[#D4AF37]">
+               
+                <div
+                    class="w-16 h-16 rounded-2xl bg-[#0B1F4D]/10 flex items-center justify-center mb-6 transition-all duration-500 group-hover:bg-[#D4AF37]/20 group-hover:rotate-6">
                     <span class="material-symbols-outlined text-3xl" data-icon="groups">groups</span>
                 </div>
-                <h3 class="font-headline-md text-headline-md text-brand-navy mb-4">Youth Mentoring</h3>
-                <p class="text-body-md text-on-surface-variant mb-6">One-on-one guidance from industry professionals to
+                <h3
+                    class="font-headline-md text-headline-md text-[#0B1F4D] mb-4 transition-colors duration-500 group-hover:text-[#D4AF37]">
+                    Youth Mentoring</h3>
+                <p
+                    class="text-body-md text-gray-600 mb-6 leading-7 transition-colors duration-500 group-hover:text-white">
+                    One-on-one guidance from industry professionals to
                     shape future career paths.</p>
-                <a class="text-brand-navy font-label-md flex items-center gap-2 group" href="#">Learn More <span
-                        class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span></a>
+                <a class="inline-flex items-center gap-2 font-semibold text-[#0B1F4D] transition-all duration-500 group-hover:text-[#D4AF37]"
+                    href="#">Learn More <span
+                        class="material-symbols-outlined text-sm transition-all duration-500 group-hover:translate-x-2">arrow_forward</span></a>
             </div>
             <!-- Card 5 -->
-            <div class="glass p-8 rounded-xxl hover-lift reveal">
-                <div class="w-14 h-14 bg-brand-navy/5 rounded-xl flex items-center justify-center text-brand-navy mb-6">
+           <div
+                class="group relative overflow-hidden bg-white border border-[#D4AF37]/20 rounded-3xl p-8 transition-all duration-500 ease-out hover:bg-[#0B1F4D] hover:-translate-y-3 hover:shadow-[0_25px_60px_rgba(11,31,77,0.45)] hover:border-[#D4AF37]">
+               
+                <div
+                    class="w-16 h-16 rounded-2xl bg-[#0B1F4D]/10 flex items-center justify-center mb-6 transition-all duration-500 group-hover:bg-[#D4AF37]/20 group-hover:rotate-6">
                     <span class="material-symbols-outlined text-3xl" data-icon="rocket_launch">rocket_launch</span>
                 </div>
-                <h3 class="font-headline-md text-headline-md text-brand-navy mb-4">Prototype Development</h3>
-                <p class="text-body-md text-on-surface-variant mb-6">Transforming conceptual ideas into functional
+                <h3
+                    class="font-headline-md text-headline-md text-[#0B1F4D] mb-4 transition-colors duration-500 group-hover:text-[#D4AF37]">
+                    Prototype Development</h3>
+                <p
+                    class="text-body-md text-gray-600 mb-6 leading-7 transition-colors duration-500 group-hover:text-white">
+                    Transforming conceptual ideas into functional
                     minimal viable products.</p>
-                <a class="text-brand-navy font-label-md flex items-center gap-2 group" href="#">Learn More <span
-                        class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span></a>
+                <a class="inline-flex items-center gap-2 font-semibold text-[#0B1F4D] transition-all duration-500 group-hover:text-[#D4AF37]"
+                    href="#">Learn More <span
+                        class="material-symbols-outlined text-sm transition-all duration-500 group-hover:translate-x-2">arrow_forward</span></a>
             </div>
         </div>
     </section>
+
+
     <!-- 5. Technology Domains -->
     <section class="py-xl bg-brand-navy text-white overflow-hidden">
         <div class="max-w-container-max mx-auto px-8 lg:px-xl">
@@ -472,40 +521,222 @@
         </div>
     </section>
     <!-- 9. Gallery -->
-    <section class="py-xl px-8 lg:px-xl max-w-container-max mx-auto" id="gallery">
-        <div class="flex justify-between items-end mb-12 reveal">
-            <h2 class="font-headline-xl text-headline-xl text-brand-navy">Innovation Showcase</h2>
-            <a class="font-label-md text-brand-navy flex items-center gap-2" href="#">View All <span
-                    class="material-symbols-outlined text-sm">open_in_new</span></a>
+    <!-- Gallery Section -->
+<section class="py-20 bg-gradient-to-b from-white via-slate-50 to-white">
+
+    <!-- Heading -->
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 text-center mb-16">
+
+        <span
+            class="inline-block px-4 py-2 rounded-full bg-[#D4AF37]/10 text-[#D4AF37] font-semibold tracking-wider uppercase text-sm">
+            Our Gallery
+        </span>
+
+        <h2 class="mt-5 text-4xl md:text-5xl font-bold text-[#0B1F4D]">
+            Moments of Learning & Innovation
+        </h2>
+
+        <p class="mt-5 max-w-3xl mx-auto text-gray-600 text-lg">
+            Discover how VUNCITE inspires young innovators through technology
+            workshops, hands-on learning, mentoring, and real-world projects.
+        </p>
+
+    </div>
+
+    <!-- Gallery -->
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+            <!-- Image 1 -->
+            <div class="group overflow-hidden rounded-3xl shadow-lg relative">
+
+                <img src="images/gallery1.jpg"
+                    class="w-full h-80 object-cover transition duration-700 group-hover:scale-110"
+                    alt="Workshop">
+
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-[#0B1F4D]/90 via-[#0B1F4D]/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-500">
+
+                    <div class="absolute bottom-6 left-6">
+                        <h3 class="text-white text-xl font-semibold">
+                            Technology Workshop
+                        </h3>
+                        <p class="text-[#D4AF37] text-sm">
+                            Practical Learning Sessions
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Image 2 -->
+            <div class="group overflow-hidden rounded-3xl shadow-lg relative">
+
+                <img src="images/gallery2.jpg"
+                    class="w-full h-80 object-cover transition duration-700 group-hover:scale-110"
+                    alt="Story Learning">
+
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-[#0B1F4D]/90 via-[#0B1F4D]/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-500">
+
+                    <div class="absolute bottom-6 left-6">
+                        <h3 class="text-white text-xl font-semibold">
+                            Story-Based Learning
+                        </h3>
+                        <p class="text-[#D4AF37] text-sm">
+                            Creative Education
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Image 3 -->
+            <div class="group overflow-hidden rounded-3xl shadow-lg relative">
+
+                <img src="images/gallery3.jpg"
+                    class="w-full h-80 object-cover transition duration-700 group-hover:scale-110"
+                    alt="Prototype">
+
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-[#0B1F4D]/90 via-[#0B1F4D]/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-500">
+
+                    <div class="absolute bottom-6 left-6">
+                        <h3 class="text-white text-xl font-semibold">
+                            Prototype Development
+                        </h3>
+                        <p class="text-[#D4AF37] text-sm">
+                            Innovation in Action
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Image 4 -->
+            <div class="group overflow-hidden rounded-3xl shadow-lg relative">
+
+                <img src="images/gallery4.jpg"
+                    class="w-full h-80 object-cover transition duration-700 group-hover:scale-110"
+                    alt="Mentoring">
+
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-[#0B1F4D]/90 via-[#0B1F4D]/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-500">
+
+                    <div class="absolute bottom-6 left-6">
+                        <h3 class="text-white text-xl font-semibold">
+                            Student Mentoring
+                        </h3>
+                        <p class="text-[#D4AF37] text-sm">
+                            Future Leaders
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Image 5 -->
+            <div class="group overflow-hidden rounded-3xl shadow-lg relative">
+
+                <img src="images/gallery5.jpg"
+                    class="w-full h-80 object-cover transition duration-700 group-hover:scale-110"
+                    alt="Coding">
+
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-[#0B1F4D]/90 via-[#0B1F4D]/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-500">
+
+                    <div class="absolute bottom-6 left-6">
+                        <h3 class="text-white text-xl font-semibold">
+                            Coding Sessions
+                        </h3>
+                        <p class="text-[#D4AF37] text-sm">
+                            Learning by Doing
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Image 6 -->
+            <div class="group overflow-hidden rounded-3xl shadow-lg relative">
+
+                <img src="images/gallery6.jpg"
+                    class="w-full h-80 object-cover transition duration-700 group-hover:scale-110"
+                    alt="Robotics">
+
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-[#0B1F4D]/90 via-[#0B1F4D]/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-500">
+
+                    <div class="absolute bottom-6 left-6">
+                        <h3 class="text-white text-xl font-semibold">
+                            Robotics Lab
+                        </h3>
+                        <p class="text-[#D4AF37] text-sm">
+                            Future Technology
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Image 7 -->
+            <div class="group overflow-hidden rounded-3xl shadow-lg relative">
+
+                <img src="images/gallery7.jpg"
+                    class="w-full h-80 object-cover transition duration-700 group-hover:scale-110"
+                    alt="Projects">
+
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-[#0B1F4D]/90 via-[#0B1F4D]/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-500">
+
+                    <div class="absolute bottom-6 left-6">
+                        <h3 class="text-white text-xl font-semibold">
+                            Student Projects
+                        </h3>
+                        <p class="text-[#D4AF37] text-sm">
+                            Creativity Unleashed
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Image 8 -->
+            <div class="group overflow-hidden rounded-3xl shadow-lg relative">
+
+                <img src="images/gallery8.jpg"
+                    class="w-full h-80 object-cover transition duration-700 group-hover:scale-110"
+                    alt="Events">
+
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-[#0B1F4D]/90 via-[#0B1F4D]/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-500">
+
+                    <div class="absolute bottom-6 left-6">
+                        <h3 class="text-white text-xl font-semibold">
+                            Tech Events
+                        </h3>
+                        <p class="text-[#D4AF37] text-sm">
+                            Inspiring Young Minds
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
-        <div class="columns-1 md:columns-2 lg:columns-3 gap-6">
-            <div class="masonry-item rounded-xxl overflow-hidden reveal">
-                <img class="w-full h-auto"
-                    data-alt="A wide shot of a bustling innovation fair. Multiple booths featuring student-led projects from autonomous vehicles to eco-tech solutions. The space is bright and airy, with vibrant banners and an atmosphere of professional excitement."
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDVcVQK_gcAuvIZAvCs_SerFG-HgtKQ_ney3A6pIQTeA5gCjZ3nerXYZ1OKD4Tm5mgX22oJ0I-gMdJ-KWsP3-tYXv5iChPYbxK5Y_y_3Kub5VXzqLaup2ub57Pc_tqAiiSZ1zKQqqf2J61IDDfyQiA7fcmTlPkz5F-daWNMHDInT-OuqpRMW7rPrkv-d5SWP94_TYZ-6FG7Jb2XAGftlocKP-kwjYgwZ5GHQQGP0MfCmZJYBgkeQdjxIA" />
-            </div>
-            <div class="masonry-item rounded-xxl overflow-hidden reveal">
-                <img class="w-full h-auto"
-                    data-alt="Close up of hands wiring a complex Arduino-based circuit on a clean white desk. The lighting is focused and clear, highlighting the precision of the work. Professional technical photography style."
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQKQ5XZqv5WAHBOaPeulycMEsHbJUzJVYoeowTtb0gxIEh9U9e7XypG7gws8gbUdyIZkj_PylqgQ_DxiwTEugxewnUzittVUghKdrs3Xc6PIBWGvE5-_SYT8eGnZJJS866eqgSEfpz1vOxZGFvQDNnjxfk_GkHtHSc1TkHvIJorViDO_NCledxKocY01BHIuuM_insUGm_DBzJfiCY3n-PwuIsAS3uS2lgloYDPmrHO-2XL3lP7eIlHA" />
-            </div>
-            <div class="masonry-item rounded-xxl overflow-hidden reveal">
-                <img class="w-full h-auto"
-                    data-alt="Digital render of a concept city designed by students, showing integrated green spaces and high-tech transportation. The aesthetic is clean, minimalist, and futuristic, following a premium digital art style."
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWZjdmWUFMrnVchJa4qmxZjWQTZRdXEoqj3mvObK0RdzIingxGLib0vgxuHZynqPH-A5vFw_vKbmqIX1m5t2LSay477jq6r3z3hjE3I68NAemjeYrRUlpAfGkK8zeGurO29qMkedBPeSyAi2rYSeBK0lDnzm_rcvDvf5rQ5YTFkYtgbcmtdhkHddff6TGBqt6-ejTbfn166BYGExGzXWRLM3SamvUeXjqFYAeOw_Mp2Ex_h7HGeUexaA" />
-            </div>
-            <div class="masonry-item rounded-xxl overflow-hidden reveal">
-                <img class="w-full h-auto"
-                    data-alt="A group of diverse children laughing while holding a small, brightly colored 3D printed robot. Soft, warm lighting creates a joyous and inspiring mood. High-end commercial photography."
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCl1VxjmYedsnsUuySI3hzvZbvYAoRylX-vEr9RiTegndkamFFTelofWs34SF6O5DWm5bBDFviusQPOUlLLQyAwh9ML6KzjZ26vrH6EbgWW1EzhDZd39qUtu5SNH3zEXCo4s2bujQ83z81eTH1PslAaw2nwfh9xMzt432Wu_f_M2yIHhEjtfduFwq-YYyRdI-VRsH4AkwAFEnUhvjy6JyvsTsyuTMigFraT12BguZn4DhQa1qqs7gJbOw" />
-            </div>
-            <div class="masonry-item rounded-xxl overflow-hidden reveal">
-                <img class="w-full h-auto"
-                    data-alt="Students engaged in a brainstorming session, with a large glass wall covered in colorful sticky notes and diagrams. Professional office environment, clean lines, and natural lighting."
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOTX7cgydRsPH4tc3EiiwjOfZdFePbnwtMwMTudUGXii5T_gSWRj7Oh5dRTt061MbCvH1j-qcZZwIeSw0kuxzfTzfsqpvd9FMdEqSAoh6xWxiQvahEm898UQOZazihZc6KAE-G1TYn8A8dLh425NhhjIlseLs0TUa2Jwq4LTopJkq5yw_cqycEUynhZh0FKJusMUd2Nqug2E0PPJicKEyzdErwXRIvi8GPNv2G-7_CfU281RLOUdffKA" />
-            </div>
-        </div>
-    </section>
+
+    </div>
+
+</section>
     <!-- 10. Testimonials -->
     <section class="py-xl bg-white border-y border-outline-variant/10">
         <div class="max-w-container-max mx-auto px-8 lg:px-xl overflow-hidden">
@@ -609,7 +840,7 @@
         </div>
     </section>
     <!-- 12. Footer -->
- <?= $this->include('layout/footer'); ?>
+    <?= $this->include('layout/footer'); ?>
     <script>
     // Intersection Observer for reveal animations
     const observerOptions = {
@@ -646,10 +877,10 @@
     const counterObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                animateCounter('stat-1', 5000);
-                animateCounter('stat-2', 250);
-                animateCounter('stat-3', 120);
-                animateCounter('stat-4', 80);
+                animateCounter('stat-1', 100);
+                animateCounter('stat-2', 3);
+                animateCounter('stat-3', 3);
+                animateCounter('stat-4', 5);
                 counterObserver.unobserve(entry.target);
             }
         });
